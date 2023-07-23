@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="card m-auto mt-5 round" style="width: 18rem;">
+     <div class="card-head ">
+        <img  src="../image/download.jpg" class="rounded-circle" >
+    </div>
+        <div class="d-flex flex-column align-items-center justify-content-center p-3 gap-2">
+          <h5 class="mt-2">parsa parva</h5>
+          <p class="card-text">Front-developer</p>
+        </div>
+     <div class="d-flex justify-content-around align-items-center">
+            <div class="d-flex flex-column">
+                <h3 id="number">1820</h3>
+                <h5 style="color: var(--them-color);">folower</h3>
+            </div>
+          <div class="d-flex flex-column">
+                <h3>820</h3>
+                <h5 style="color: var(--them-color);">folowing</h3>
+            </div>
+            
+          </div>
+     <div class="d-flex justify-content-around">
+        <button id="follow"  class="btn rounded-pill p-3" style="background-color: var(--them-color) ;">follow</button>
+        <button id="messagebox" data-bs-target="#exampleModal" data-bs-toggle="modal" class="btn rounded-pill p-2" style="border: 2px solid var(--them-color);">message</button>
+     </div>
+      </div>
+      <div class="m-auto bg-light border-black mt-4 shadow p-3 mb-5 bg-body rounded" style="width: 300px;">
+        <ul class="d-flex justify-content-around align-items-center gap-5 border-light p-0 m-0">
+            <li class="rounded-circle p-0 color" style="background-color:var(--them-color); ;"></li>
+            <li class="rounded-circle  p-0 color" style="background-color:blue ;"></li>
+            <li class="rounded-circle  p-0 color" style="background-color:yellow ;"></li>
+            <li class="rounded-circle  p-0 color" style="background-color:green ;"></li>
+        </ul>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">message</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <input class="form-input w-100" placeholder="type your message">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<script src="../css/bootstrap.bundle.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="../css/bootstrap.min.js"></script>
+<script src="../css/puper.js"></script>
+</body>
+</html>
